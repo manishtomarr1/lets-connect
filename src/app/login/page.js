@@ -6,7 +6,7 @@ import * as Yup from 'yup';
 import { useRouter } from 'next/navigation';
 
 const Login = () => {
-        const router = useRouter();
+  const router = useRouter();
 
   const [serverError, setServerError] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
@@ -95,7 +95,7 @@ const Login = () => {
           <div className="text-red-500 text-center mt-4">{serverError}</div>
         )}
         <p className="text-center text-sm mt-4">
-          Don't have an account?{' '}
+          Don&apos;t have an account?{' '}
           <a
             href="/signup"
             className="text-blue-500 hover:underline"

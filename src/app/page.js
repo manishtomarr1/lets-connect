@@ -8,15 +8,15 @@ export default function Home() {
         <div className="relative w-full h-80 lg:h-96">
           <Image
             src="/assests/home.png"
-            alt="Let's Connect"
+            alt="Let&apos;s Connect"
             layout="fill"
             objectFit="cover"
             className="rounded-lg shadow-lg"
           />
         </div>
-        <h1 className="mt-8 text-4xl font-bold text-gray-800">Let's Connect</h1>
+        <h1 className="mt-8 text-4xl font-bold text-gray-800">Let&apos;s Connect</h1>
         <p className="mt-4 max-w-2xl text-lg text-gray-600">
-          Welcome to Let's Connect, the ultimate platform for making connections and building friendships. Whether you’re here to find new buddies, keep in touch with friends, or engage in meaningful conversations, we’ve got you covered. Start connecting today!
+          Welcome to Let&apos;s Connect, the ultimate platform for making connections and building friendships. Whether you&apos;re here to find new buddies, keep in touch with friends, or engage in meaningful conversations, we&apos;ve got you covered. Start connecting today!
         </p>
       </section>
 
