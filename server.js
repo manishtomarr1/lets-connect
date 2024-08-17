@@ -141,12 +141,13 @@ app.prepare().then(() => {
 
     const io = socketIo(server, {
         cors: {
-            origin: process.env.NODE_ENV !== 'production' ? '*' : process.env.ALLOWED_ORIGIN,
+            origin: process.env.ALLOWED_ORIGIN || '*', // Define allowed origins
             methods: ['GET', 'POST'],
             allowedHeaders: ['Authorization'],
             credentials: true
         }
     });
+    
     
 
     global.io = io; // Make io globally accessible
